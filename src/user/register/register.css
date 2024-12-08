@@ -1,0 +1,22 @@
+.register_container{
+    padding: 30px;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register_subCon{
+    border: 2px solid black;
+    padding: 3rem;
+    border-radius: 10px;
+}
+.heading{
+    font-size: 20px;
+    font-weight: 550;
+    padding-bottom: 2rem;
+}
+.register_form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

@@ -1,0 +1,37 @@
+.order_container{
+    padding: 30px;
+}
+.p1{
+    font-size: 20px;
+}
+
+.seed_image{
+    width: 5rem;
+}
+.order_heading{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    padding: 1rem;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.order_detail{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+.btn{
+    width: fit-content;
+}
+.pHead{
+    font-size: 20px;
+}
+.editInput{
+    width: 70%;
+}

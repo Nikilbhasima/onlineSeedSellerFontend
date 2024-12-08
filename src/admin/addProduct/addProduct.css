@@ -1,0 +1,84 @@
+a {
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent, or set a specific color */
+  }
+  
+  .NavLink {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set your preferred color */
+  }
+
+  .active{
+    color: blue;
+  }
+
+  .addProduct{
+    padding: 30px;
+  }
+.entry_form{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  width: 70rem;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.img-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.upload-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 90%;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.upload-button:hover {
+  border-color: #007bff;
+}
+.icon_img{
+  font-size: 15rem;
+  border-radius: 100%;
+  box-shadow: 2px 5px 10px rgb(153, 52, 52,0.5);
+}
+.message{
+  text-align: center;
+}
+
+.form{
+ padding-left: 2rem;
+}
+input{
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px;
+}
+textarea{
+  font-size: 16px;
+  border-radius: 5px;
+  height: 10rem;
+  padding: 10px;
+}
+
+.input_fields{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  
+  gap: 1rem;
+}

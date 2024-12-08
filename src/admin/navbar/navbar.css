@@ -1,0 +1,85 @@
+.navbarMain{
+    background-color: yellow;
+    margin-top: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    height: 92.9vh;
+
+}
+
+.logo{
+    margin: 0;
+    font-size: 40px;
+    font-family: serif;
+    text-transform: capitalize;
+}
+.logoBack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    padding:1rem;
+}
+.nav-links{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 2rem;
+    font-weight: 550;
+    width: fit-content;
+    position: relative;
+}
+
+li::after{
+    content: "";
+    height: 2px;
+    width: 0;
+    background-color: black;
+    display: block;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    transform-origin: center; 
+    transition: width 0.5s ease-in-out;
+    
+}
+
+li:hover::after{
+width: 100%;
+}
+
+button{
+    font-size: 20px;
+    font-weight: 550;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: green;
+    border: 0;
+    transition: all 0.5s ease-in-out;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    border: 0.1px solid black;
+    color: green;
+}

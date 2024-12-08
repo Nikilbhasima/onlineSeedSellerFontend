@@ -1,0 +1,21 @@
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    box-shadow: 2px 5px 10px rgb(32, 0, 0,0.5);
+}
+.logo{
+    width: 8rem;
+    border-radius: 100%;
+}
+
+.link_list{
+    display: flex;
+    gap: 1rem;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+}

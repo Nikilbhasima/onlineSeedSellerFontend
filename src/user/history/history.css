@@ -1,0 +1,27 @@
+.history_container{
+    padding: 30px;
+}
+.history_heading{
+    font-size: 20px;
+    font-weight: 550;
+}
+.history_list{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns:repeat(7,1fr);
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 20px;
+}
+.header{
+    font-weight: 550;
+}
+
+.seed_image{
+    width: 5rem;
+}
+.list_container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

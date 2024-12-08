@@ -1,0 +1,59 @@
+.main-body{
+    padding: 30px;
+}
+.list_container{
+    height: 80vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    position: relative;
+}
+.list_data{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.header{
+    padding: 10px;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.heading{
+    font-size: 25px;
+    font-family: serif;
+}
+.seed_img{
+    width: 7rem;
+}
+.order_btn{
+    width: fit-content;
+}
+.orderData{
+    font-size: 20px;
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 12px; 
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
